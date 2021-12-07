@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img{
+    width: 100%;
+}
+
+.main{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* header */
+section.header_area {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0;
+ 
+}
+
+.sticky{
+    background-color: white;
+    padding: px 0;
+    border-bottom: 2px solid #f2f2f2;
+    transition: .3s;
+}
+
+.sticky a{
+    color: #333;
+}
+
+.sticky .menu a:hover{
+    background-color: tomato;
+    border-radius: 3px;
+    color: #fff;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+
+}
+
+.logo {
+    width:300px;
+}
+
+.logo a {
+    font-size: 31px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.menu {
+    width: 600px;
+    margin-top: 11px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: right;
+}
+
+.menu ul li {
+    margin-left: 24px;
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 7px 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: block;
+}
+
+.banner_area{
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+ .banner_area h2 {
+    color: blue;
+    text-transform: capitalize;
+    padding-top: 160px;
+    font-size: 77px;
+    text-align: center;
+} 
+
+.section_title h4 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding: 50px 0;
+    margin-bottom: -19px;
+}
+
+.section_title p {
+    font-size: 18px;
+    padding: 0 87px;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.about_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.singel_about {
+    width: 30%;
+    border: 1px solid #333;
+    padding: 17px;
+}
+
+.singel_about h4 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 22px 0;
+}
+
+.singel_about p {
+    text-align: justify;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.singel_about a {
+    color: #333;
+    background-color: tomato;
+    padding: 10px 15px;
+    color: #fff;
+    border: 1px solid tomato;
+    transition: .3s;
+    border-radius: 3px;
+}
+
+.singel_about a:hover{
+    background-color: #fff;
+    color: tomato;
+}
+
+
+
+
+
