@@ -42,7 +42,7 @@ section.header_area {
     transition: .3s;
 }
 
-.sticky a{
+.sticky .menu a{
     color: #333;
     transition: .3s;
 }
