@@ -44,6 +44,7 @@ section.header_area {
 
 .sticky a{
     color: #333;
+    transition: .3s;
 }
 
 .sticky .menu a:hover{
